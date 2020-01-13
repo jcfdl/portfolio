@@ -152,7 +152,7 @@ section .bgPic {
     padding: 0;
 }
 h2 {
-	font: 300 45px 'Open Sans',Arial,"Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 600 45px 'Open Sans',Arial,"Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1em;
     color: #fff;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ h2 {
     padding: 0;
 }
 h3, h4 {
-	font: 300 25px 'Open Sans',Arial,"Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 600 25px 'Open Sans',Arial,"Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 30px;
     color: #3e454c;
     text-transform: uppercase;
@@ -169,7 +169,7 @@ h3, h4 {
     padding: 0;
 }
 .inner {
-	margin-top: 200px;
+	margin-top: 250px;
 }
 .main-box {
 	height: 250px;
