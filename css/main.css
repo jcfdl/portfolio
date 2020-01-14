@@ -119,8 +119,10 @@ body.viewing-page-4 #mainNav #menu-contact a {
 }
 section .bgPic {
     position: absolute;
-    left: -220px;
-    bottom: -262px;
+    /*left: -220px;*/
+    left: -25px;
+    /*bottom: -262px;*/
+    bottom: -85px;
     max-width: 100%;
     z-index: 0;
 }
