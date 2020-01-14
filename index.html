@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">	
 	<!-- <link rel="stylesheet" href="css/fullpage.css">	 -->
 	<link rel="stylesheet" href="css/custom.css">	
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- <script src="https://unpkg.com/scrollreveal"></script>
 	<script>
     ScrollReveal({ reset: true });
@@ -26,10 +26,10 @@
 						</a>
 					</h1>					
 					<ul id="mainNav" class="nav is-center">
-						<li id="menu-home" class="nav-item"><a class="nav-link" href="#1" data-index="1">home</a></li>
-						<li id="menu-about" class="nav-item"><a class="nav-link" href="#2" data-index="2">about</a></li>
-						<li id="menu-projects" class="nav-item"><a class="nav-link" href="#3" data-index="3">projects</a></li>
-						<li id="menu-contact" class="nav-item"><a class="nav-link" href="#4" data-index="4">contact</a></li>
+						<li id="menu-home" class="nav-item"><a class="nav-link" href="" data-index="1">home</a></li>
+						<li id="menu-about" class="nav-item"><a class="nav-link" href="" data-index="2">about</a></li>
+						<li id="menu-projects" class="nav-item"><a class="nav-link" href="" data-index="3">projects</a></li>
+						<li id="menu-contact" class="nav-item"><a class="nav-link" href="" data-index="4">contact</a></li>
 					</ul>		
 				</div>
 			</div>
@@ -92,35 +92,46 @@
 					<div class="inner">
 						<h2>Projects</h2>
 						<div class="row">
-							<div class="col-lg-4">
+							<div class="col-lg-4 col-xs-6 col-sm-6 mb-4">
 								<div class="main-box">
-									<div class="project-box-header"><i></i> APAC-AFF Admin</div>
-									<div class="project-box" onclick="openNav()">
-										<a href="#" onclick="openNav()">
-											<img src="images/urladmin.jpg" class="proj-img">
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="main-box">
-									<div class="project-box-header"><i></i> APAC-AFF Admin</div>
-									<div class="project-box">
-											<img src="images/urladmin.jpg" class="proj-img">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="main-box">
-									<div class="project-box-header"><i></i> APAC-AFF Admin</div>
-									<div class="project-box">
+									<div class="project-box-header"><i></i> MAD I</div>
+									<div class="project-box" data-id="mad1">
 										<img src="images/urladmin.jpg" class="proj-img">
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="btn-seemore-container">
-							<a class="btn btn-seemore hvr-grow-rotate"><span class="fab fa-behance"></span> See more on Behance</a>
+							<div class="col-lg-4 col-xs-6 col-sm-6 mb-4">
+								<div class="main-box">
+									<div class="project-box-header" ><i></i> MAD II</div>
+									<div class="project-box" data-id="mad2">
+											<img src="http://placehold.it/300x300" class="proj-img">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xs-6 col-sm-6 mb-4">
+								<div class="main-box">
+									<div class="project-box-header"><i></i> CI BLOG</div>
+									<div class="project-box" data-id="blog">
+										<img src="images/projects/blog_intro.jpg" class="proj-img">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xs-6 col-sm-6 mb-4">
+								<div class="main-box">
+									<div class="project-box-header"><i></i> OES</div>
+									<div class="project-box" data-id="oes">
+										<img src="images/projects/oes_intro.jpg" class="proj-img">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xs-6 col-sm-6 mb-4">
+								<div class="main-box">
+									<div class="project-box-header" ><i></i> REACT TIC-TAC-TOE</div>
+									<div class="project-box" data-id="tictactoe">	
+										<img src="images/projects/tictactoe_intro.jpg" class="proj-img">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -157,67 +168,67 @@
 			</div>
 		</footer>
 	</div>
-	<div id="view-project">
+	<div id="mad1" class="view-project">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<div class="content">
 			<div class="row">
 				<div class="col-md-6">					
 					<div id="projInfo" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#projInfo" data-slide-to="0" class="active"></li>
-                            <li data-target="#projInfo" data-slide-to="1"></li>
-                            <li data-target="#projInfo" data-slide-to="2"></li>                        
-                        </ol>
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="#">
-                                            <img src="http://placehold.it/400x400" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>                                   
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-                             <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="#">
-                                            <img src="http://placehold.it/400x400" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>                                   
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-                             <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a href="#">
-                                            <img src="http://placehold.it/400x400" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>                                   
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
+                <ol class="carousel-indicators">
+                    <li data-target="#projInfo" data-slide-to="0" class="active"></li>
+                    <li data-target="#projInfo" data-slide-to="1"></li>
+                    <li data-target="#projInfo" data-slide-to="2"></li>                        
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
                         </div>
-                        <!--.carousel-inner-->
+                        <!--.row-->
                     </div>
-                    <!--.Carousel-->
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
 				</div>
 				<div class="col-md-6">
 					<div class="proj-desc">
 						<div class="proj-title">
-							<span class="subtext">Title:</span> <a href="#" class="btn-url"> APAC-AFF URL ADMIN SYSTEM</a>
+							<span class="subtext">Title:</span> <a href="#" class="btn-url"> MAD I</a>
 						</div>
 						<div class="proj-date">
 							<span class="subtext">Finished At:</span> April 2018
 						</div>
 						<div class="proj-tools">
-							<span class="subtext">Tools Used:</span> PHP, MySQL, ChartJS, Javscript, Jquery
+							<span class="subtext">Tools Used:</span> PHP, MySQL, ChartJS, Javascript, Jquery
 						</div>
 						<div class="proj-overview">
 							<span class="subtext">Description:</span> 
@@ -240,65 +251,369 @@
 			</div>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<div id="mad2" class="view-project">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">					
+					<div id="projInfo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#projInfo" data-slide-to="0" class="active"></li>
+                    <li data-target="#projInfo" data-slide-to="1"></li>
+                    <li data-target="#projInfo" data-slide-to="2"></li>                        
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="http://placehold.it/600x600" alt="Image">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+				</div>
+				<div class="col-md-6">
+					<div class="proj-desc">
+						<div class="proj-title">
+							<span class="subtext">Title:</span> <a href="#" class="btn-url"> MAD II</a>
+						</div>
+						<div class="proj-date">
+							<span class="subtext">Finished At:</span> January 2019
+						</div>
+						<div class="proj-tools">
+							<span class="subtext">Tools Used:</span> Laravel, MySQL, ChartJS, Javascript, Jquery
+						</div>
+						<div class="proj-overview">
+							<span class="subtext">Description:</span> 
+							<p class="proj-text">This has the same function as MAD I but was rebuilt with a Laravel Framework for better UI and better functionalities. Additional functions implemented:</p>
+							<div class="proj-text">
+								<ul>
+									<li>RBAC (Role-based Account Control) System</li>
+									<li>Notifications System</li>
+									<li>Translation System for Translators</li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="blog" class="view-project">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">					
+					<div id="projInfo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#projInfo" data-slide-to="0" class="active"></li>
+                    <li data-target="#projInfo" data-slide-to="1"></li>
+                    <li data-target="#projInfo" data-slide-to="2"></li>                        
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/blog_1.jpg" alt="CI Blog">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/blog_2.jpg" alt="CI Blog">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/blog_3.jpg" alt="CI Blog">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+				</div>
+				<div class="col-md-6">
+					<div class="proj-desc">
+						<div class="proj-title">
+							<span class="subtext">Title:</span> <a href="#" class="btn-url"> CI BLOG</a>
+						</div>
+						<div class="proj-date">
+							<span class="subtext">Finished At:</span> December 2019
+						</div>
+						<div class="proj-tools">
+							<span class="subtext">Tools Used:</span> CodeIgniter, MySQL, Javascript
+						</div>
+						<div class="proj-overview">
+							<span class="subtext">Description:</span> 
+							<p class="proj-text">This is just a simple blogging system that is built under CodeIgniter Framework. Functionalities are:</p>
+							<div class="proj-text">
+								<ul>
+									<li>CRUD Articles</li>
+									<li>User Account Control System</li>					
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="oes" class="view-project">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">					
+					<div id="projInfo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#projInfo" data-slide-to="0" class="active"></li>
+                    <li data-target="#projInfo" data-slide-to="1"></li>
+                    <li data-target="#projInfo" data-slide-to="2"></li>                        
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/oes_1.jpg" alt="OES 1">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/oes_2.jpg" alt="OES 2">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/oes_3.jpg" alt="OES 3">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+				</div>
+				<div class="col-md-6">
+					<div class="proj-desc">
+						<div class="proj-title">
+							<span class="subtext">Title:</span> <a href="#" class="btn-url"> Online Examination System</a>
+						</div>
+						<div class="proj-date">
+							<span class="subtext">Finished At:</span> January 2020
+						</div>
+						<div class="proj-tools">
+							<span class="subtext">Tools Used:</span> Yii, MySQL, Javascript
+						</div>
+						<div class="proj-overview">
+							<span class="subtext">Description:</span> 
+							<p class="proj-text">This is a simple Online Examination System that is built under Yii. It is used for sending online exams to applicants applied through the site. Functionalities are:</p>
+							<div class="proj-text">
+								<ul>
+									<li>CRUD of Exam</li>
+									<li>CRUD of Exam Questions</li>
+									<li>Listing of Exam Takers</li>
+									<li>Email Notification for Application</li>
+									<li>Email Notification to HR after taking the test</li>
+									<li>Exam Overview System</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tictactoe" class="view-project">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">					
+					<div id="projInfo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#projInfo" data-slide-to="0" class="active"></li>
+                    <li data-target="#projInfo" data-slide-to="1"></li>
+                    <li data-target="#projInfo" data-slide-to="2"></li>                        
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/tictactoe_1.jpg" alt="Tic Tac Toe">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/tictactoe_2.jpg" alt="Tic Tac Toe">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                     <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="images/projects/tictactoe_3.jpg" alt="Tic Tac Toe">
+                                </a>
+                            </div>                                   
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+				</div>
+				<div class="col-md-6">
+					<div class="proj-desc">
+						<div class="proj-title">
+							<span class="subtext">Title:</span> <a href="#" class="btn-url"> Tic Tac Toe (React Game)</a>
+						</div>
+						<div class="proj-date">
+							<span class="subtext">Finished At:</span> January 2020
+						</div>
+						<div class="proj-tools">
+							<span class="subtext">Tools Used:</span> ReactJS
+						</div>
+						<div class="proj-overview">
+							<span class="subtext">Description:</span> 
+							<p class="proj-text">This is just a simple tic-tac-toe game that is built under ReactJS. Additional functionalities are:</p>
+							<div class="proj-text">
+								<ul>
+									<li>History of Moves</li>
+									<li>Game Result</li>
+									<li>Game Restart</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<!-- <script src="js/fullpage.js"></script> -->
 	<script src="js/onepage-scroll.min.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
+	<script src="js/onepage-fix.js"></script>
+	<!-- JAVASCRIPTS -->
+	<script>
+		var id;
+		AOS.init({
     	easing: 'ease-out-back',
     	duration: 500
     });
-  </script>
-	<!-- JAVASCRIPTS -->
-	<script>
-		// $('#projInfo').carousel({
-		// 		interval: 3000
-		// });
-		/* Open when someone clicks on the span element */
-		function openNav() {
-		    document.getElementById("view-project").style.width = "100%";
+		function openProject() {
+		  document.getElementById(id).style.width = "100%";
 		}
-		/* Close when someone clicks on the "x" symbol inside the overlay */
 		function closeNav() {
-		    document.getElementById("view-project").style.width = "0%";
+		  document.getElementById(id).style.width = "0%";
 		}
-
-		// window.sr = ScrollReveal({ reset: true });
-
-		// HOME REVEAL
-		// ScrollReveal().reveal('#home .animate-reveal', { origin: 'top', distance: '100%', interval: 300, duration: 1500, reset: true });
-		// ScrollReveal().reveal('#home .subtitle', { delay: 500, origin: 'right', distance: '100%', duration: 1500, scale: 1, reset: true });
-		// ScrollReveal().reveal('#home .bgPic', { delay: 1200, origin: 'top', distance: '100%', duration: 2000, scale: 1, reset: true });
-		
-		// ScrollReveal().reveal('#about .bgPic', { origin: 'top', distance: '100%', duration: 2000, scale: 1 });
-
-
-		// ScrollReveal().reveal('#about .subsub', { delay: 1200, origin: 'top', distance: '100%', duration: 2000 });
 		$(document).ready(function(){			
-	    	$(".main").onepage_scroll({
-		        sectionContainer: "section",
-		        responsiveFallback: 600,
-		        loop: false,
-		        updateURL: true,
-		        beforeMove: function(index) {
-		        	$('section [data-aos]').each(function(){
-					      $(this).removeClass("aos-animate")
-					    });
-		        },
-		        afterMove: function(index) {
-		        	$('section [data-aos]').each(function(){
-					      $(this).addClass("aos-animate")
-					    });
-		        }
-	    	});
-	    	$('#mainNav li a').click(function() {
-			   	$(".main").moveTo($(this).data('index'));
-			   	$('#mainNav li a').removeClass("active");
-    			$(this).addClass("active");
-			});			
-	   });	   
+    	$(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: false,
+        updateURL: false,
+        beforeMove: function(index) {
+        	$('section [data-aos]').each(function(){
+			      $(this).removeClass("aos-animate")
+			    });
+        },
+        afterMove: function(index) {
+        	$('section [data-aos]').each(function(){
+			      $(this).addClass("aos-animate")
+			    });
+        }
+    	});
+    	$('#mainNav li a').click(function(e) {
+    		e.preventDefault();
+		   	$(".main").moveTo($(this).data('index'));
+		   	$('#mainNav li a').removeClass("active");
+  			$(this).addClass("active");
+			});	
+			$('.project-box').on('click', function() {
+				id = $(this).attr('data-id');
+				openProject();
+			});		
+	  });	   
 	</script>
 	
 </body>
