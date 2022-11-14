@@ -71,6 +71,7 @@ body {
 					text-decoration: none;
 				}
 			}
+			
 		}
 		@media screen and (max-width: 1199px) {
 			text-align: center;
@@ -94,4 +95,16 @@ div, section, article {
 
 h1 {
 	color: #fff;
+}
+
+.btn {
+	background-color: $accent-color;
+	color: #fff !important;
+	padding: 10px 30px;
+
+	i {
+		font-size: 1em !important;
+		color: #fff !important;
+		margin-right: 10px;
+	}
 }

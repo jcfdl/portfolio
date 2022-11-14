@@ -85,4 +85,15 @@ h1 {
   color: #fff;
 }
 
+.btn {
+  background-color: #FFBC00;
+  color: #fff !important;
+  padding: 10px 30px;
+}
+.btn i {
+  font-size: 1em !important;
+  color: #fff !important;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
